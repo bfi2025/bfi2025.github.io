@@ -9,6 +9,12 @@ a {
     font-size: unset;
 }
 
+.infoText {
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+
 .homeTitle{
     width:101%;
     margin-left:-10px;
