@@ -1,3 +1,11 @@
+
+
+@font-face {
+    font-family: appleChancery;
+    src: url(Apple\ Chancery\ 100.ttf);
+}
+
+
 body {
     font-family:Arial, Helvetica, sans-serif;
     background-color:#fdfaf7
@@ -9,35 +17,42 @@ a {
     font-size: unset;
 }
 
+.infoText {
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+
 .homeTitle{
-    width:101%;
+    width: 101%;
     margin-left:-10px;
     padding: left 10px;
-    background-color:#fdfaf7;
-    color:#000000;
-    font-weight:900;
-    text-align:center;
+    background-color: #fdfaf7;
+    color: #000000;
+    font-weight: 900;
+    text-align: center;
     font-size: 48px;
-    border-bottom:double #00000070;
-    margin-bottom:15px;
+    border-bottom: double #00000070;
+    margin-bottom: 15px;
 }
 
 .leftTitle {
     width:29%;
-    height: auto;
-    margin-left:10%;
+    height: 30%;
+    margin-left: 10%;
     padding: 5%;
     float: left;
     background-color: #ff7b7b;
     border-right: solid #000000;
     text-align: center;
     font-weight: 900;
-    font-size:20px;
+    font-size: 250%;
+    font-family: appleChancery;
 }
 
 .rightTitle {
     width:29%;
-    height: auto;
+    height: 30%;
     margin-right:10%;
     padding: 5%;
     float: right;
@@ -45,7 +60,8 @@ a {
     border-left: solid #000000;
     text-align: center;
     font-weight: 900;
-    font-size: 20px;
+    font-size:250%;
+    font-family: appleChancery
 }
 
 .leftEmbed {
