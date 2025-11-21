@@ -95,18 +95,17 @@ a {
     }
 
 .footer {
-    width: 103%;
-    height: 100px;
-    margin-left: -10px;
-    position: absolute;
-    bottom: 0;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:100px;
+
     }
 
 .footerImage {
-    height: 75%;
+    height:75%;
+    bottom:0;
     align-items: center;
-    display: flex;
-    margin: auto;
 }
 
 
