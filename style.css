@@ -105,7 +105,9 @@ a {
 .footerImage {
     height:75%;
     bottom:0;
-    align-items: center;
+    position: relative;
+    margin: auto;
+    display: block;
 }
 
 
