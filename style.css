@@ -50,6 +50,18 @@ a {
     margin-bottom: 15px;
     }
 
+.crewTitle {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #d8d8d8;
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+    border: double #fefefe;
+    margin-bottom: 15px;
+
+}
+
 .leftTitle {
     width:75%;
     height: 30%;
@@ -85,6 +97,8 @@ a {
     font-size: 250%;
     font-family: appleChancery;
     position: relative;
+    border: double #ffffff;
+    border-bottom: none;
     }
 
 .rightEmbed {
@@ -98,7 +112,7 @@ a {
     position:relative;
     bottom:0;
     width:100%;
-    height:100px;
+    height:90px;
     float: left;
     }
 
