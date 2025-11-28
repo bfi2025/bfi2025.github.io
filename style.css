@@ -1,9 +1,14 @@
 
-
 @font-face {
     font-family: appleChancery;
     src: url(Apple\ Chancery\ 100.ttf);
     }
+
+@font-face {
+    font-family: ancientMedium;
+    src: url(Ancient\ Medium.ttf);
+    }
+
 
 
 body {
@@ -17,6 +22,8 @@ a {
     font-size: unset;
     }
 
+
+    
 .linkSpanner {
     position:absolute;
     width:100%;
@@ -56,15 +63,28 @@ a {
     padding: left 10px;
     padding-bottom: 15px;
     color: #ff7b7b;
-    font-weight: 900;
+    font-family: ancientMedium;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     border-bottom: double #00000070;
     margin-bottom: 15px;
-}
+    }
+
+.againAndAgainTitle {
+    width: 100%;
+    margin-left:-10px;
+    padding: left 10px;
+    padding-bottom: 15px;
+    color: #7876ff;
+    font-family: appleChancery;
+    text-align: center;
+    font-size: 50px;
+    border-bottom: double #00000070;
+    margin-bottom: 15px;
+    }
 
 .crewTitle {
-    width:50%;
+    width: 75%;
     padding-top: 15px;
     padding-bottom: 15px;
     color: #d8d8d8;
@@ -76,19 +96,21 @@ a {
     position: relative;
     margin:auto;
     margin-top: 25px;
-}
+    border-radius: 10px;
+    }
 
 .crewText {
-    width: 50%;
+    width: 60%;
     color: #fefefe;
     text-align: center;
     position: relative;
     margin: auto;
     margin-top: 25px;
-}
+    }
 
 .watchHere {
     width:75%;
+    height: auto;
     padding: 10px;
     color: #d8d8d8;
     font-weight: 900;
@@ -101,7 +123,7 @@ a {
     background-color: #c03030;
     border-radius: 21px;
     border-width: 6px;
-}
+    }
 
 .leftTitle {
     width:75%;
@@ -112,9 +134,8 @@ a {
     float: left;
     background-color: #ff7b7b;
     text-align: center;
-    font-weight: 900;
-    font-size: 250%;
-    font-family: appleChancery;
+    font-size: 300%;
+    font-family: ancientMedium;
     position: relative;
     }
 
@@ -157,12 +178,12 @@ a {
     }
 
 .footerImage {
-    height:75%;
+    width: 75%;
     bottom:0;
     position: relative;
     margin: auto;
     display: block;
-}
+    }
 
 
 
